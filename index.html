@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WOODY – Modern Furniture & Decor</title>
+<meta name="description" content="WOODY brings natural wooden furniture and carefully crafted decor into modern homes.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css"></head><body>
+<nav id="nv"><div class="w nb">
+<a href="#home" class="wm" aria-label="WOODY home">WOODY</a>
+<div class="nl" id="nl"><a href="#home" data-n="home">Home</a><a href="#shop" data-n="shop">Shop</a><a href="#collections" data-n="collections">Collections</a><a href="#about" data-n="about">About Us</a><a href="#contact" data-n="contact">Contact</a><a href="#wishlist" class="mw" data-n="wishlist">Wishlist</a></div>
+<div class="ic"><button id="bs" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+<button id="bw" class="bw" aria-label="Wishlist"><svg viewBox="0 0 24 24"><path d="M12 20s-8-4.9-8-11a4.5 4.5 0 018-2.7A4.5 4.5 0 0120 9c0 6.100-8 11-8 11z"/></svg><span class="bd" id="wc">0</span></button>
+<button id="bc" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M5 8h14l-1 12H6zM9 8V6a3 3 0 016 0v2"/></svg><span class="bd" id="cc">0</span></button>
+<button class="mb" id="bm" aria-label="Menu"><svg viewBox="0 0 24 24"><path d="M4 8h16M4 16h16"/></svg></button></div></div></nav>
+<div id="sr"><div class="w sbar"><input id="si" placeholder="Search WOODY" aria-label="Search products"><button id="sx" type="button" aria-label="Close search"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div></div>
+
+<main id="home" class="v on" style="padding:0">
+<header class="hero"><img data-i="hero" alt="Wooden coffee station in a sunlit kitchen"><div class="w ld"><h1>Bring Warmth Into Your Home.</h1><p>Discover timeless furniture and carefully crafted decor designed to make every space feel special.</p><div><a class="btn" href="#shop">Explore Collection</a><a class="btn o" href="#about">Discover WOODY</a></div></div></header>
+<section class="sec" id="collections"><div class="w"><div class="hd rv"><h2>Shop by category</h2><p>Six ways into the WOODY collection.</p></div><div class="cg" id="cg"></div></div></section>
+<section class="sec" style="padding-top:0"><div class="w"><div class="hd rv"><h2>Selected pieces</h2><a class="btn l" href="#shop">View all products</a></div><div class="pg" id="hp"></div></div></section>
+<section class="sec ft"><div class="w sp"><div class="im rv"><img data-i="station" alt="WOODY wooden coffee station" loading="lazy"></div><div class="rv"><p style="color:var(--wd)">Featured product</p><h2 id="fT"></h2><p id="fD"></p><div class="fn" id="fF"></div><div class="big" id="fP"></div><a class="btn d" id="fL">Discover Product</a></div></div></section>
+<section class="sec" id="about"><div class="w ab"><div class="col"><div class="im rv"><img data-i="living" alt="Warm living room with wooden furniture" loading="lazy"></div><div class="im rv"><img data-i="wardrobe" alt="Dark wood cabinet" loading="lazy"></div><div class="im rv"><img data-i="olive" alt="Olive branches by a window" loading="lazy"></div></div><div class="rv"><h2>Crafted With Passion. Designed For Living.</h2><p>WOODY brings natural beauty, everyday function and timeless wooden design into modern homes.</p><p>Each piece is chosen to feel warm and calm in a room: honest materials, clean lines and details that reward a closer look.</p><a class="btn d" href="#shop">Shop the collection</a></div></div></section>
+<section class="sec" style="padding-top:0"><div class="w"><div class="hd rv"><h2>Why choose WOODY?</h2></div><div class="wy rv">
+<div><svg viewBox="0 0 24 24"><path d="M4 20l9-9M13 11l3-3 4 4-3 3zM6 6l4 4"/></svg><h3>Quality Craftsmanship</h3><p>Solid, well-finished wooden pieces made to be used every day.</p></div>
+<div><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M12 7v5l3 2"/></svg><h3>Timeless Designs</h3><p>Simple shapes that stay relevant as your home changes.</p></div>
+<div><svg viewBox="0 0 24 24"><path d="M4 7h10M18 7h2M4 17h2M10 17h10"/><circle cx="16" cy="7" r="2"/><circle cx="8" cy="17" r="2"/></svg><h3>Customizable Products</h3><p>Choose finishes and sizes to suit your space.</p></div>
+<div><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4.500-4.500"/></svg><h3>Attention to Every Detail</h3><p>From hooks to edges, the small things are considered.</p></div></div></div></section>
+</main>
+
+<main id="shop" class="v"><div class="w"><div class="pt"><h1>Shop</h1></div>
+<div class="tb"><div id="fl" style="display:flex;gap:8px;flex-wrap:wrap"></div><select id="so" aria-label="Sort"><option value="f">Featured</option><option value="a">Price: low to high</option><option value="d">Price: high to low</option><option value="n">Name</option></select><input id="si2" placeholder="Search products" aria-label="Search"></div>
+<div class="pg" id="sg" style="padding-bottom:90px"></div></div></main>
+
+<main id="product" class="v"><div class="w" id="pv"></div></main>
+<main id="wishlist" class="v"><div class="w"><div class="pt"><h1>Wishlist</h1></div><div class="pg" id="wg" style="padding-bottom:90px"></div></div></main>
+<main id="cart" class="v"><div class="w"><div class="pt"><h1>Your cart</h1></div><div id="cv"></div></div></main>
+<main id="checkout" class="v"><div class="w"><div class="pt"><h1>Checkout</h1></div><div id="ck"></div></div></main>
+
+<footer><div class="w"><div class="fg"><div><a href="#home" class="lg"><img data-i="logo" alt=""><span><b>WOODY</b><i>MODERN FURNITURE &amp; DECOR</i></span></a><p style="max-width:26em;font-size:.92rem">Natural wooden furniture and carefully crafted decor for modern homes.</p></div>
+<div><h4>Explore</h4><ul><li><a href="#home">Home</a></li><li><a href="#shop">Shop</a></li><li><a href="#collections">Collections</a></li><li><a href="#about">About Us</a></li></ul></div>
+<div><h4>Support</h4><ul><li><a href="#contact">Contact</a></li><li><a href="#contact">Shipping &amp; returns</a></li><li><a href="#contact">Care guide</a></li><li><a href="#contact">FAQ</a></li></ul></div>
+<div id="contact"><h4>Newsletter</h4><form class="nw" id="nf"><input type="email" required placeholder="Your email" aria-label="Email"><button class="btn">Subscribe</button></form><p style="margin-top:18px;font-size:.9rem">Follow: <a href="#home">Instagram</a> · <a href="#home">Pinterest</a> · <a href="#home">Facebook</a></p></div></div>
+<div class="cp"><span>© 2026 WOODY – Modern Furniture &amp; Decor. All rights reserved.</span><span>Sample prices and product details are placeholders.</span></div></div></footer>
+<div id="ts" role="status"></div>
+<script src="js/app.js"></script></body></html>
